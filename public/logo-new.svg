@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Background gradient circle -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9c27b0" />
+      <stop offset="100%" stop-color="#e91e63" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  
+  <!-- Main circle -->
+  <circle cx="50" cy="50" r="45" fill="url(#logoGradient)" filter="url(#shadow)" />
+  
+  <!-- Mood matrix grid pattern -->
+  <g stroke="white" stroke-width="2" stroke-opacity="0.6" fill="none">
+    <rect x="30" y="30" width="40" height="40" rx="5" />
+    <line x1="30" y1="50" x2="70" y2="50" />
+    <line x1="50" y1="30" x2="50" y2="70" />
+  </g>
+  
+  <!-- Mood faces -->
+  <circle cx="40" cy="40" r="5" fill="white" />
+  <circle cx="60" cy="40" r="5" fill="white" />
+  <path d="M35,60 Q50,70 65,60" stroke="white" stroke-width="3" fill="none" />
+  
+  <!-- MM letters -->
+  <text x="50" y="85" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">MOOD MATRIX</text>
+</svg>

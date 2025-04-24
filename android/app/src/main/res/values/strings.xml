@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">moodmatrix</string>
+    <string name="title_activity_main">moodmatrix</string>
+    <string name="package_name">com.moodmatrix.app</string>
+    <string name="custom_url_scheme">com.moodmatrix.app</string>
+</resources>

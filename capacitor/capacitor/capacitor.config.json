@@ -1,0 +1,10 @@
+{
+  "appId": "com.moodmatrix.app",
+  "appName": "moodmatrix",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    }
+  }
+}

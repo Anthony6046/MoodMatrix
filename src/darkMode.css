@@ -1,0 +1,61 @@
+/* Dark mode text color overrides */
+.MuiTypography-root {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.MuiTypography-h4 {
+  color: #e91e63 !important;
+}
+
+.MuiTypography-h5,
+.MuiTypography-h6 {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.MuiTypography-subtitle1,
+.MuiTypography-body2 {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.MuiTypography-body1 {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Input text color fixes */
+.MuiInputBase-input {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #e91e63 !important;
+}
+
+.MuiInputLabel-root {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Button text color fixes */
+.MuiButton-root {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.MuiButton-contained {
+  background-color: #e91e63 !important;
+}
+
+.MuiButton-outlined {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.MuiButton-outlined:hover {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
